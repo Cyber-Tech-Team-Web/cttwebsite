@@ -59,7 +59,7 @@ function Navbar() {
             
 
         </div>
-        <div ref={listRef} className='hidden'>
+        <div ref={listRef} className='hidden '>
                 <ul className=' flex flex-col items-center w-[100%] h-screen bg-white gap-24 py-8 fixed z-50'>
                 <Link href="/"><li className='hover:text-[#3A0879] cursor-pointer'>Home</li></Link>
                     <Link href="/about"><li className='hover:text-[#3A0879] cursor-pointer'>About Us</li></Link>

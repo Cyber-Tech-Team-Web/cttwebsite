@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+#heropic{
+    background-image: url('../public/images/heropic.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+}
+#herosmall{
+    background-image: url('../public/images/herosmall.jpg');
+    background-position: center;
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+
+
+
+}
